@@ -9,5 +9,6 @@ else()
   set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/${CMAKE_BUILD_TYPE})
 endif()
 
-add_subdirectory("src/Application")
-add_subdirectory("src/Containers")
+add_subdirectory("src/application")
+add_subdirectory("src/containers")
+add_subdirectory("src/hello_world")

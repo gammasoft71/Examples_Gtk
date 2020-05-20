@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 3.2)
-project(Container)
+project(container)
 
-add_subdirectory("Window")
+add_subdirectory(window)

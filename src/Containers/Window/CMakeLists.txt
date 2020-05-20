@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(Window)
+project(window)
 
 find_package(PkgConfig)
 pkg_check_modules(GTK gtk+-3.0)
@@ -9,4 +9,4 @@ link_libraries(${GTK_LIBRARIES})
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-add_executable(${PROJECT_NAME} Window.cpp)
+add_executable(${PROJECT_NAME} window.cpp)
