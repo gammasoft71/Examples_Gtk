@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.0)
 project(hello_world_label)
 
+add_compile_options(-Wdeprecated-declarations)
+
 find_package(PkgConfig)
 pkg_check_modules(GTK gtk+-3.0)
 include_directories(${GTK_INCLUDE_DIRS})

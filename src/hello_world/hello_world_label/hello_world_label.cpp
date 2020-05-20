@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
   gtk_fixed_put(GTK_FIXED(fixed), label1, 5, 100);
   
   auto window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-  gtk_window_set_title(GTK_WINDOW(window), "First application");
+  gtk_window_set_title(GTK_WINDOW(window), "Hello world (label)");
   gtk_window_resize(GTK_WINDOW(window), 300, 300);
   g_signal_connect (window, "destroy", G_CALLBACK(+[](GtkWidget* widget, gpointer data) {
     gtk_main_quit();
