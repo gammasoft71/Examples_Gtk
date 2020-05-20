@@ -10,5 +10,6 @@ else()
 endif()
 
 add_subdirectory("src/application")
+add_subdirectory("src/common_controls")
 add_subdirectory("src/containers")
 add_subdirectory("src/hello_world")
