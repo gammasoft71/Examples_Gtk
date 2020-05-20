@@ -1,102 +1,96 @@
-# wxWidgets Examples
+# Gtk+3 Examples
 
-Shows how to use wxWidgets controls only by programming code (c++17).
+Shows how to use Gtk3 controls only by programming code (c++17).
 
 ## Hello World
 
-["Hello World"](src/HelloWorld/HelloWorld) The classic first application HelloWorld with wxStaticText.
+["Hello World"](src/HelloWorld/HelloWorld) The classic first application HelloWorld with GtkLabel.
 
 ## Application
 
-[Application](src/Application/Application) Shows how to create a simple wxWidgets application with wxApp.
-
-[ApplicationAndMain](src/Application/ApplicationAndMain) Shows how to create a wxWidgets application and main method with wxApp.
-
-[ApplicationAndMain2](src/Application/ApplicationAndMain2) Shows how to create a wxWidgets application and main method with wxApp.
-
-[ApplicationIcon](src/Application/ApplicationIcon) Shows how to create a wxWidgets application and icon with wxApp.
+[Application](src/Application/Application) Shows how to create a simple gtk application with GtkApplication.
 
 ## Common Controls
 
-[Button](src/CommonControls/Button) Shows how to create a wxWidgets Button and Event Click with wxButton.
+[Button](src/CommonControls/Button) Shows how to create a gtk Button and Event Click with GtkButton.
 
-[CheckBox](src/CommonControls/CheckBox) Shows how to create a wxWidgets CheckBox with wxCheckBox.
+[CheckBox](src/CommonControls/CheckBox) Shows how to create a gtk CheckBox with GtkCheckBox.
 
-[CheckedListBox](src/CommonControls/CheckedListBox) Shows how to create a wxWidgets CheckListBox with wxCheckListButton.
+[CheckedListBox](src/CommonControls/CheckedListBox) Shows how to create a gtk CheckListBox with GtkCheckListButton.
 
-[ComboBox](src/CommonControls/ComboBox) Shows how to create a wxWidgets ComboBox with wxComboBox.
+[ComboBox](src/CommonControls/ComboBox) Shows how to create a gtk ComboBox with GtkComboBox.
 
-[Control](src/CommonControls/Control) Shows how to create a wxWidgets Control with wwxControl.
+[Control](src/CommonControls/Control) Shows how to create a gtk Control with GTkControl.
 
-[DateTimePicker](src/CommonControls/DateTimePicker) Shows how to create a wxWidgets DateTimePicker with wxDatePicker.
+[DateTimePicker](src/CommonControls/DateTimePicker) Shows how to create a gtk DateTimePicker with GtkDatePicker.
 
-[DomainUpDown](src/CommonControls/DomainUpDown) Shows how to create a wxWidgets DomainUpDown with own [wxDomainSpinCtrl](src/CommonControls/DomainUpDown/wxDomainSpinCtrl.h) (wxPanel with wxTextCtrl and wxSpinButton).
+[DomainUpDown](src/CommonControls/DomainUpDown) Shows how to create a gtk DomainUpDown with own [GtkDomainSpinCtrl](src/CommonControls/DomainUpDown/GTkDomainSpinCtrl.h) (GtkPanel with GtkTextCtrl and GtkSpinButton).
 
-[HScrollBar](src/CommonControls/HScrollBar) Shows how to create a wxWidgets HScrollBar with wxScrollBar.
+[HScrollBar](src/CommonControls/HScrollBar) Shows how to create a gtk HScrollBar with GtkScrollBar.
 
-[Label](src/CommonControls/Label) Shows how to create a wxWidgets Label with wxStaticText.
+[Label](src/CommonControls/Label) Shows how to create a gtk Label with GtkStaticText.
 
-[LinkLabel](src/CommonControls/LinkLabel) Shows how to create a wxWidgets LinkLabel with wxHyperLinkCtrl.
+[LinkLabel](src/CommonControls/LinkLabel) Shows how to create a gtk LinkLabel with GtkHyperLinkCtrl.
 
-[ListBox](src/CommonControls/ListBox) Shows how to create a wxWidgets ListBox with wxListBox.
+[ListBox](src/CommonControls/ListBox) Shows how to create a gtk ListBox with GtkListBox.
 
-[ListView](src/CommonControls/ListView) Shows how to create a wxWidgets ListView with wxListCtrl.
+[ListView](src/CommonControls/ListView) Shows how to create a gtk ListView with GtkListCtrl.
 
-[MonthCalendar](src/CommonControls/MonthCalendar) Shows how to create a wxWidgets MonthCalendar with wxCalendarCtrl.
+[MonthCalendar](src/CommonControls/MonthCalendar) Shows how to create a gtk MonthCalendar with GtkCalendarCtrl.
 
-[NotifyIcon](src/CommonControls/NotifyIcon) Shows how to create a wxWidgets NotifyIcon with own [wxNotifyIcon](src/CommonControls/NotifyIcon/wxNotifyIcon.h) (wxTaskBarIcon).
+[NotifyIcon](src/CommonControls/NotifyIcon) Shows how to create a gtk NotifyIcon with own [wxNotifyIcon](src/CommonControls/NotifyIcon/wxNotifyIcon.h) (wxTaskBarIcon).
 
-[NumericUpDown](src/CommonControls/NumericUpDown) Shows how to create a wxWidgets NumericUpDown with wxSpinCtrl and wxSpinCtrlDouble.
+[NumericUpDown](src/CommonControls/NumericUpDown) Shows how to create a gtk NumericUpDown with GtkSpinCtrl and GtkSpinCtrlDouble.
 
-[PictureBox](src/CommonControls/PictureBox) Shows how to create a wxWidgets CheckBox with wxStaticBitmap.
+[PictureBox](src/CommonControls/PictureBox) Shows how to create a gtk CheckBox with GtkStaticBitmap.
 
-[ProgressBar](src/CommonControls/ProgressBar) Shows how to create a wxWidgets ProgressBar with wxGauge.
+[ProgressBar](src/CommonControls/ProgressBar) Shows how to create a gtk ProgressBar with GtkGauge.
 
-[RadioButton](src/CommonControls/RadioButton) Shows how to create a wxWidgets RadioButton with wxRadioButton.
+[RadioButton](src/CommonControls/RadioButton) Shows how to create a gtk RadioButton with GtkRadioButton.
 
-[RichTextBox](src/CommonControls/RichTextBox) Shows how to create a wxWidgets RichTextBox with wxRichTextCtrl.
+[RichTextBox](src/CommonControls/RichTextBox) Shows how to create a gtk RichTextBox with GtkRichTextCtrl.
 
-[TextBox](src/CommonControls/TextBox) Shows how to create a wxWidgets TextBox with wxTextCtrl.
+[TextBox](src/CommonControls/TextBox) Shows how to create a gtk TextBox with GtkTextCtrl.
 
-[ToolTip](src/CommonControls/ToolTip) Shows how to create a wxWidgets ToolTip with wxRichToolTip.
+[ToolTip](src/CommonControls/ToolTip) Shows how to create a gtk ToolTip with GtkRichToolTip.
 
-[TrackBar](src/CommonControls/TrackBar) Shows how to create a wxWidgets TrackBar with wxSlider.
+[TrackBar](src/CommonControls/TrackBar) Shows how to create a gtk TrackBar with GtkSlider.
 
-[TreeView](src/CommonControls/TreeView) Shows how to create a wxWidgets TreeView with wxTreeCtrl.
+[TreeView](src/CommonControls/TreeView) Shows how to create a gtk TreeView with GtkTreeCtrl.
 
-[VScrollBar](src/CommonControls/VScrollBar) Shows how to create a wxWidgets VScrollBar with wxScrollBar.
+[VScrollBar](src/CommonControls/VScrollBar) Shows how to create a gtk VScrollBar with GtkScrollBar.
 
-[WebBrowser](src/CommonControls/WebBrowser) Shows how to create a wxWidgets WebBrowser with wxWebView.
+[WebBrowser](src/CommonControls/WebBrowser) Shows how to create a gtk WebBrowser with GtkWebView.
 
 ## Containers
 
-[Form](src/Containers/Form) Shows how to create a simple wxWidgets Form with wxFrame.
+[Form](src/Containers/Form) Shows how to create a simple gtk Form with GtkFrame.
 
-[GroupBox](src/Containers/GroupBox) Shows how to create a simple wxWidgets GroupBox with wxStaticBox.
+[GroupBox](src/Containers/GroupBox) Shows how to create a simple gtk GroupBox with GtkStaticBox.
 
-[Panel](src/Containers/Panel) Shows how to create a simple wxWidgets Panel with wxPanel.
+[Panel](src/Containers/Panel) Shows how to create a simple gtk Panel with GtkPanel.
 
-[SplitContainer](src/Containers/SplitContainer) Shows how to create a simple wxWidgets SplitContainer with wxSplitterWindow and wxPanel.
+[SplitContainer](src/Containers/SplitContainer) Shows how to create a simple gtk SplitContainer with GtkSplitterWindow and GtkPanel.
 
-[TabControl](src/Containers/TabControl) Shows how to create a simple wxWidgets TabControl with TabPages with wxNotebook.
+[TabControl](src/Containers/TabControl) Shows how to create a simple gtk TabControl with TabPages with GtkNotebook.
 
 ## Menus and toolbars
 
-[MainMenu](src/MenusAndToolbars/MainMenu) Shows how to create a wxWidgets MainMenu with wxMenu.
+[MainMenu](src/MenusAndToolbars/MainMenu) Shows how to create a gtk MainMenu with GtkMenu.
 
 ## Components
 
-[Timer](src/Components/Timer) Shows how to create a simple wxWidgets Timer with wxTimer.
+[Timer](src/Components/Timer) Shows how to create a simple gtk Timer with GtkTimer.
 
 ## Dialogs
 
-[ColorDialog](src/Dialogs/ColorDialog) Shows how to create a ColorDialog with wxColourDialog.
+[ColorDialog](src/Dialogs/ColorDialog) Shows how to create a ColorDialog with GtkColourDialog.
 
-[FolderBrowserDialog](src/Dialogs/FolderBrowserDialog) Shows how to create a FolderBrowserDialog with wxDirDialog.
+[FolderBrowserDialog](src/Dialogs/FolderBrowserDialog) Shows how to create a FolderBrowserDialog with GtkDirDialog.
 
-[FontDialog](src/Dialogs/FontDialog) Shows how to create a FontDialog with wxFontDialog.
+[FontDialog](src/Dialogs/FontDialog) Shows how to create a FontDialog with GtkFontDialog.
 
-[MessageBox](src/Dialogs/MessageBox) Shows how to create a MessageBox with wxMessageBox.
+[MessageBox](src/Dialogs/MessageBox) Shows how to create a MessageBox with GtkMessageBox.
 
 ## Events
 
@@ -110,9 +104,9 @@ Shows how to use wxWidgets controls only by programming code (c++17).
 
 ## Custom controls
 
-[NumericTextBox](src/CustomControls/NumericTextBox) Shows how to create a custom control wxNumericTextCtrl from wxTextCtrl.
+[NumericTextBox](src/CustomControls/NumericTextBox) Shows how to create a custom control GtkNumericTextCtrl from GtkTextCtrl.
 
-[Line](src/Others/Line) Shows how to create a custom control wxLine from wxPanel.
+[Line](src/Others/Line) Shows how to create a custom control GtkLine from GtkPanel.
 
 ## Others
 
@@ -133,30 +127,12 @@ Shows how to use wxWidgets controls only by programming code (c++17).
 ## Download
 
 ``` shell
-git clone https://github.com/gammasoft71/Examples.wxWidgets Examples.wxWidgets
+git clone https://github.com/gammasoft71/Examples.Gtk Examples.Gtk
 ```
 
 ## Generate and build
 
 To build this project, open "Terminal" and type following lines:
-
-### Windows
-``` cmake
-mkdir build
-cd build
-cmake ..
-open Examples.wxWidgets.sln
-```
-
-### macOS :
-
-``` cmake
-mkdir build
-cd build
-cmake .. -G "Xcode"
-open ./Examples.wxWidgets.xcodeproj
-```
-
 
 ### Linux :
 
@@ -169,4 +145,4 @@ cmake --build . --config Debug
 
 ## Remarks
 
-This project run with [wxWidgets](https://www.wxwidgets.org) and [CMake](https://cmake.org).
+This project run with [Gtk3](https://developer.gnome.org/gtk3/stable) and [CMake](https://cmake.org).
