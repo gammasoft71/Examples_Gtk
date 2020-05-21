@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
   gtk_window_set_default_size(GTK_WINDOW(window1), 640, 480);
   gtk_window_move(GTK_WINDOW(window1), 300, 200);
 
-  g_signal_connect (button1, "pressed", G_CALLBACK(+[](GtkWidget* widget, gpointer data) {
+  g_signal_connect (button1, "clicked", G_CALLBACK(+[](GtkWidget* widget, gpointer data) {
     gtk_window_close(GTK_WINDOW(data));
   }), window1);
   
